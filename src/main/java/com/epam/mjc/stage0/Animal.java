@@ -44,10 +44,12 @@ public class Animal {
             fur = "no fur";
         }
         patternAnimals = "This animal is mostly " + color + ". It has " + paws + " and " + fur +".";
+        System.out.println(patternAnimals);
         return patternAnimals;
 
 
     }
+
 }
 
 
